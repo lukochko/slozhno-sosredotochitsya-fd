@@ -9,9 +9,6 @@
   --text-color: #f1b2ce;
   --decoration-color: var(--accent-color);
   --background-color: #000028;
-  --header1-color: #db00ff;
-  --header2-color: var(--accent-color);
-  --header3-color: var(--background-color);
   --font-family: "IBM Plex Mono", sans-serif;
   --regular-font-size: 18px;
   --small-line-height: 83%;
@@ -21,4 +18,10 @@
   --regular-font-weight: 400;
   --font-style: normal;
   --is-light: visible;
-}
+  --header-color: #db00ff;
+  --border-color: var(--accent-color);      
+  --border-hover: rgba(255, 0, 112, 0.4);       
+  --border-focus: var(--accent-color);
+  --topic-color: var(--accent-color);
+  --decor-color: var(--text-color);
+  --bottom-color:  #ff0070;}
