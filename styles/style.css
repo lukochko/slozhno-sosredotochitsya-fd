@@ -39,11 +39,11 @@
 }
 
 .text-link:hover {
-  border-bottom: 1px solid #ff0070;
+  border-bottom: 1px solid var(--link-color);
 }
 
 .text-link:focus {
-  border: 1px solid #ff0070;
+  border: 1px solid var(--link-color);
 }
 
 .text-link:focus-visible {
@@ -179,7 +179,7 @@
 }
 
 .title_decor {
-  color: var(--header3-color);
+  color: var(--header-text-color);
   background-color: var(--accent-color);
   font-size: var(--regular-font-size);
   font-weight: var(--bold-font-weight);
@@ -217,6 +217,7 @@
 .footer {
   position: relative;
   block-size: 100vh;
+  min-height: 668px;
   display: flex;
   justify-content: center;
   align-items: center;

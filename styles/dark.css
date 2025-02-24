@@ -15,11 +15,12 @@
   --text-color: #f1b2ce;
   --decoration-color: var(--accent-color);
   --background-color: #000028;
+  --header-text-color: var(--background-color);
   --is-light: visible;
   --border-color: var(--accent-color);
-  --border-hover: rgba(255, 0, 112, 0.4);
-  --border-focus: var(--accent-color);
   --header-color: #db00ff;
   --topic-color: var(--accent-color);
   --decor-color: var(--text-color);
-  --bottom-color: var(--accent-color);}
+  --bottom-color: var(--accent-color);
+  --link-color: var(--text-color);
+}
