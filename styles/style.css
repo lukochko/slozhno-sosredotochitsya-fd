@@ -30,7 +30,7 @@
   border-block-end: 1px solid var(--decoration-color);
   border-inline-start: 1px solid var(--decoration-color);
   inset-inline-start: 10px;
-  margin-block-end: 110px;
+  margin-block-end: 11px;
 }
 
 .text-link {
@@ -436,12 +436,6 @@
 
   .articles {
     grid-column: span 2;
-  }
-
-  .topic_centr {
-  }
-
-  .articles_centr {
   }
 
   .topic__col {
