@@ -23,4 +23,5 @@
   --decor-color: var(--text-color);
   --bottom-color: var(--accent-color);
   --link-color: var(--text-color);
+  --hover-color: rgba(255, 0, 112, 0.4);
 }
