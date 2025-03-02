@@ -21,6 +21,10 @@
   --link-color: var(--text-color);
   --hover-color: rgba(50, 49, 45, 0.4);
   --logo-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
+  .theme-light .header__decoration-dark {
+    display: none;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -41,8 +45,8 @@
     --link-color: var(--text-color);
     --hover-color: rgba(50, 49, 45, 0.4);
   }
-}
 
-.theme-light .header__decoration-dark {
-  display: none;
+  .header__decoration-dark {
+    display: none;
+  }
 }
