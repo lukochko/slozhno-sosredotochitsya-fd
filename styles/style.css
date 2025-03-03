@@ -304,7 +304,6 @@
   }
 
   .articles_col {
-    grid-column: 2;
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-column: 1 / -1;
