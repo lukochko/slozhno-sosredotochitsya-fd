@@ -393,6 +393,7 @@
   .header {
     min-height: 768px;
     padding-block-end: 136px;
+    padding-block-start: 18px;
   }
 
   .header__decoration-dark {
