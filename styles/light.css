@@ -12,11 +12,11 @@
   --decoration-color: var(--text-color);
   --background-color: #fff1f7;
   --header-text-color: var(--text-color);
+  --decor-color: var(--text-color);
   --is-light: hidden;
   --border-color: var(--text-color);
   --header-color: #ffc2e6;
   --topic-color: var(--text-color);
-  --decor-color: var(--text-color);
   --bottom-color: var(--text-color);
   --link-color: var(--text-color);
   --hover-color: rgba(50, 49, 45, 0.4);
@@ -36,17 +36,23 @@
     --decoration-color: var(--text-color);
     --background-color: #fff1f7;
     --header-text-color: var(---text-color);
+    --decor-color: var(--text-color);
     --is-light: hidden;
     --border-color: var(--text-color);
     --header-color: #ffc2e6;
     --topic-color: var(--topic-color);
-    --decor-color: var(--text-color);
     --bottom-color: var(--text-color);
     --link-color: var(--text-color);
     --hover-color: rgba(50, 49, 45, 0.4);
   }
 
   .header__decoration-dark {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .theme-light .header__decoration-dark {
     display: none;
   }
 }

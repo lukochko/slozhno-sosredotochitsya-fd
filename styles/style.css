@@ -114,7 +114,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-block-end: 1px solid var(--accent-color);
+  border-block-end: 1px solid var(--bottom-color);
 }
 
 .header__theme-menu-list {
@@ -190,6 +190,7 @@
   font-size: var(--regular-font-size);
   font-weight: var(--bold-font-weight);
   line-height: var(--large-line-height);
+  color: var(--decor-color);
 }
 
 .card__text {
@@ -285,7 +286,7 @@
   .main {
     margin-block: 60px;
     padding-inline: 20px;
-    row-gap: 80px;
+    row-gap: 60px;
   }
 
   .topic {
@@ -300,10 +301,9 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-block-end: -20px;
   }
 
-  .articles_col {
+  .articles_cards {
     flex-direction: column;
     grid-template-columns: 1fr;
     grid-column: 1 / -1;
@@ -314,11 +314,11 @@
     grid-column: 1;
   }
 
-  .topic__col {
+  .topic__cards {
     margin-block-end: 20px;
   }
 
-  .title_col {
+  .title_cards {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -435,17 +435,17 @@
     grid-column: span 2;
   }
 
-  .topic__col {
+  .topic__cards {
     grid-template-columns: repeat(3, 1fr);
     margin-block-end: 0px;
   }
 
-  .title_col {
+  .title_cards {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
 
-  .articles_col {
+  .articles_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;

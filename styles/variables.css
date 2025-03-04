@@ -10,6 +10,7 @@
   --decoration-color: var(--accent-color);
   --background-color: #000028;
   --header-text-color: var(--background-color);
+  --decor-color: var(--background-color);
   --font-family: "IBM Plex Mono", sans-serif;
   --regular-font-size: 18px;
   --small-line-height: 83%;
@@ -23,7 +24,6 @@
   --border-color: var(--accent-color);
   --hover-color: rgba(255, 0, 112, 0.4);
   --topic-color: var(--accent-color);
-  --decor-color: var(--text-color);
   --bottom-color: var(--accent-color);
   --link-color: var(--text-color);
 }
